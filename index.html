@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy2Share | Authentic Indian Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Yummy2Share</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-animation"></div>
+        <div class="hero-content">
+            <h1>Discover Authentic Indian Recipes</h1>
+            <p>Explore traditional Indian flavors and modern fusion dishes from all over India, curated just for you.</p>
+            <a href="#recipes" class="btn">Explore Recipes</a>
+        </div>
+    </section>
+
+    <section class="video-introduction">
+        <h2>Welcome to Yummy2Share</h2>
+        <div class="video-container">
+            <video autoplay loop muted playsinline>
+                <source src="assets/dosa video.mp4" type="video/mp4"> <!-- Replace with your video file name -->
+                Your browser does not support the video tag.
+            </video>
+            <p class="video-description">
+                Welcome to Yummy2Share! Join us as we explore the vibrant world of Indian cuisine. 
+                Learn how to create authentic dishes with simple steps, tips, and tricks that 
+                will impress your family and friends.
+            </p>
+            <a href="#recipes" class="btn">Try Our Recipes!</a>
+        </div>
+    </section>
+
+    <section id="recipes" class="recipe-list">
+        <h2>Popular Indian Recipes</h2>
+        <div class="recipes-container">
+            <div class="recipe-card">
+                <img src="assets/hyderabadi biryani.jpeg" alt="Hyderabadi Biryani">
+                <div class="card-content">
+                    <h3>Hyderabadi Biryani</h3>
+                    <p>Aromatic basmati rice cooked with tender meat and spices.</p>
+                    <a href="recipe.html?id=1" class="btn">View Recipe</a>
+                </div>
+            </div>
+            
+            <div class="recipe-card">
+                <img src="assets/butter chicken.jpeg" alt="Butter Chicken">
+                <div class="card-content">
+                    <h3>Butter Chicken</h3>
+                    <p>Creamy, mildly spiced chicken cooked in tomato sauce.</p>
+                    <a href="recipe.html?id=2" class="btn">View Recipe</a>
+                </div>
+            </div>
+
+            <div class="recipe-card">
+                <img src="assets/paneer tikka.jpeg" alt="Paneer Tikka">
+                <div class="card-content">
+                    <h3>Paneer Tikka</h3>
+                    <p>Marinated cottage cheese grilled to perfection.</p>
+                    <a href="recipe.html?id=3" class="btn">View Recipe</a>
+                </div>
+            </div>
+
+            <div class="recipe-card">
+                <img src="assets/masala dosa.jpeg" alt="Masala Dosa">
+                <div class="card-content">
+                    <h3>Masala Dosa</h3>
+                    <p>Crispy dosa filled with spiced potato filling.</p>
+                    <a href="recipe.html?id=4" class="btn">View Recipe</a>
+                </div>
+            </div>
+
+            <div class="recipe-card">
+                <img src="assets/rogan josh.jpeg" alt="Rogan Josh">
+                <div class="card-content">
+                    <h3>Rogan Josh</h3>
+                    <p>A flavorful Kashmiri curry with tender lamb cooked in a rich sauce.</p>
+                    <a href="recipe.html?id=5" class="btn">View Recipe</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Yummy2Share | All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
